@@ -9,7 +9,7 @@ export const SearchForm = () => {
           type="search"
           name="search"
           className="search-input"
-          placeholder="search"
+          placeholder="search..."
         />
       </Form>
     </div>

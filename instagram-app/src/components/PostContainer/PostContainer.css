@@ -1,0 +1,19 @@
+.profile-photo {
+  border-radius: 50%;
+  height: 65px;
+}
+.user-profile {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.post-container {
+  width: 750px;
+  margin: 0 auto;
+}
+.post-photo {
+  width: 750px;
+  border-radius: 10px;
+  height: 80vh;
+}

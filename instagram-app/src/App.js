@@ -9,7 +9,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: dummyData
+      data: dummyData,
     };
   }
   render() {
@@ -20,7 +20,7 @@ class App extends Component {
         </header>
         <div>
           <PostContainer data={this.state.data} />
-        </div>
+        </div> 
       </div>
     );
   }

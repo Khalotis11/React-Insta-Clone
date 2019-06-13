@@ -8,7 +8,7 @@ export const SearchForm = () => {
         <Input
           type="search"
           name="search"
-          id="exampleSearch"
+          className="search-input"
           placeholder="search"
         />
       </Form>

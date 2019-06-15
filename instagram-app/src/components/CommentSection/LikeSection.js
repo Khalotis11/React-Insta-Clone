@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 export const LikeSection = props => {
   return (
@@ -9,4 +10,9 @@ export const LikeSection = props => {
       <div>{props.likes.likes} Likes</div>
     </div>
   );
+};
+LikeSection.propTypes = {
+  likes: PropTypes.shape({
+    likes: PropTypes.number
+  })
 };

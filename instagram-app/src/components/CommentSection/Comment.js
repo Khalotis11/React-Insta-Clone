@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 export const Comment = props => {
   return (
@@ -7,4 +8,11 @@ export const Comment = props => {
       <span className="comment">{props.comment.text}</span>
     </div>
   );
+};
+
+Comment.propTypes = {
+  comment: PropTypes.shape({
+    username: PropTypes.string,
+    text: PropTypes.string
+  })
 };

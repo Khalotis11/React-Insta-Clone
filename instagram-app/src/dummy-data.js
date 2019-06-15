@@ -9,8 +9,8 @@ const dummyData = [
       "https://tk-assets.lambdaschool.com/69cf901b-f96d-466e-a745-ff2a01effac9_philz-image.jpg",
     likes: 400,
     timestamp: "July 17th 2017, 12:42:40 pm",
-   
-     comments: [
+
+    comments: [
       {
         id: 1,
         username: "philzcoffee",
@@ -27,7 +27,6 @@ const dummyData = [
         username: "martinseludo",
         text: "Can't wait to try it!"
       }
-    
     ]
   },
   {

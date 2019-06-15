@@ -4,6 +4,7 @@ import "./PostContainer.css";
 import CommentSection from "../CommentSection/CommentSection";
 import { LikeSection } from "../CommentSection/LikeSection";
 import { AddComment } from "../CommentSection/AddComment";
+import PropTypes from "prop-types";
 
 export const PostContainer = props => {
   // console.log(props)
@@ -22,11 +23,15 @@ export const PostContainer = props => {
           <img src={data.imageUrl} alt={data.username} className="post-photo" />
           <div className="comments-likes">
             <LikeSection likes={data} key={data.id} />
-            <CommentSection comments={data.comments} key={data.id} />
+            <CommentSection comments={data.comments} key={data.comments.id} />
           </div>
           <AddComment />
         </div>
       ))}
     </div>
   );
+};
+
+PostContainer.propTypes = {
+  data: PropTypes.arrayOf(PropTypes.object)
 };

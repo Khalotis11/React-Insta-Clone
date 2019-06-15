@@ -1,0 +1,14 @@
+.username {
+  font-weight: bold;
+}
+.comment {
+  color: gray;
+}
+.add-comment-container {
+  margin-top: 10px;
+}
+#exampleText {
+  width: 726px;
+  font-size: 17px;
+  padding: 10px;
+}

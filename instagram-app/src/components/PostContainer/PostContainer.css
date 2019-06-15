@@ -17,3 +17,7 @@
   border-radius: 5px;
   height: 80vh;
 }
+.comments-likes {
+  border: 1px solid #dcdcdc;
+  padding: 5px;
+}

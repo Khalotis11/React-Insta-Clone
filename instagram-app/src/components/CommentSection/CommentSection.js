@@ -3,7 +3,7 @@ import "./CommentSection.css";
 
 import { Comment } from "./Comment";
 
-class CommentSection extends Component {
+export default class CommentSection extends Component {
   constructor(props) {
     super(props);
     // console.log(props);
@@ -11,16 +11,15 @@ class CommentSection extends Component {
       comments: props.comments
     };
   }
-
   render() {
-    // console.log(this.state.comments)
     return (
       <div>
         {this.state.comments.map(comment => (
-          <Comment comment={comment} />
+          <div>
+            <Comment comment={comment} key={comment.id} />
+          </div>
         ))}
       </div>
     );
   }
 }
-export default CommentSection;

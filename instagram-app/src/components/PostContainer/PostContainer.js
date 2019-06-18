@@ -2,8 +2,8 @@ import React from "react";
 import "./PostContainer.css";
 
 import CommentSection from "../CommentSection/CommentSection";
-import { LikeSection } from "../CommentSection/LikeSection";
-import { AddComment } from "../CommentSection/AddComment";
+import LikeSection from "../CommentSection/LikeSection";
+import AddComment from "../CommentSection/AddComment";
 import PropTypes from "prop-types";
 
 export const PostContainer = props => {
@@ -25,7 +25,7 @@ export const PostContainer = props => {
             <LikeSection likes={data} key={data.id} />
             <CommentSection comments={data.comments} key={data.comments.id} />
           </div>
-          <AddComment />
+          <AddComment comments={data.comments} key={data.comments.id} />
         </div>
       ))}
     </div>

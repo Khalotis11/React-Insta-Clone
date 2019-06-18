@@ -5,7 +5,7 @@ export const InstaLogo = () => {
     <div className="instaLogo">
       <i class="fab fa-instagram" />
       <h2>|</h2>
-      <h3>Instagram</h3>
+      <h3>Instgram</h3>
     </div>
   );
 };

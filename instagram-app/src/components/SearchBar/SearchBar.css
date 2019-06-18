@@ -1,0 +1,21 @@
+.search-bar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  width: 100%;
+  border-bottom: 1px solid #b8b9b2;
+}
+.instaLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 20%;
+}
+.search-icons {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+i {
+  font-size: 25px;
+}
